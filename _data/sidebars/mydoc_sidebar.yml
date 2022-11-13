@@ -1,0 +1,550 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Learnapidoc-ru
+  version: 2.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Release notes
+    output: web, pdf
+    folderitems:
+
+    - title: Release notes
+      url: /release-notes.html
+      output: web, pdf
+
+  - title: Введение в REST API
+    output: web, pdf
+    folderitems:
+
+    - title: О модуле
+      url: /about-first-module.html
+      output: web, pdf
+
+    - title: Коротко о курсе
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
+    - title: Обзор курса
+      url: /course-overview.html
+      output: web, pdf
+
+    - title: Для чего этот курс
+      url: /what-for-this-course.html
+      output: web, pdf
+
+    - title: Об авторе курса
+      url: /about-the-author.html
+      output: web, pdf
+
+    - title: Знакомство с документацией REST API
+      url: /intro-rest-api.html
+      output: web, pdf
+
+    - title: Что такое REST API
+      url: /what-is-rest-api.html
+      output: web, pdf
+
+    - title: Видео презентации
+      url: /video-presentations.html
+      output: web, pdf
+
+    - title: Презентации курса
+      url: /course-slides.html
+      output: web, pdf
+
+    - title: Практические занятия
+      url: /workshop-activities.html
+      output: web, pdf
+
+    - title: Практика "Определение цели"
+      url: /identify-goals.html
+      output: web, pdf
+
+  - title: Используем API как разработчики
+    output: web, pdf
+    folderitems:
+
+    - title: О модуле
+      url: /about-second-module.html
+      output: web, pdf
+
+    - title: Сценарий использования API сервиса прогноза погоды
+      url: /using-api-scenario.html
+      output: web, pdf
+
+    - title: Получение ключей авторизации
+      url: /get-authorization-keys.html
+      output: web, pdf
+
+    - title: Отправка запросов в Postman
+      url: /submit-requests-postman.html
+      output: web, pdf
+
+    - title: Введение и установка curl
+      url: /curl-intro-and-instalation.html
+      output: web, pdf
+
+    - title: Создание curl запроса
+      url: /make-curl-call.html
+      output: web, pdf
+
+    - title: Понимание curl
+      url: /understand-curl.html
+      output: web, pdf
+
+    - title: Использование методов с curl
+      url: /use-methods-with-curl.html
+      output: web, pdf
+
+    - title: Анализ JSON ответов
+      url: /analyze-json-response.html
+      output: web, pdf
+
+    - title: Изучение полезных данных JSON ответа
+      url: /inspect-json.html
+      output: web, pdf
+
+    - title: Доступ и вывод на страницу определенного значения JSON
+      url: /access-print-value.html
+      output: web, pdf
+
+    - title: Погружение в точечную нотацию
+      url: /dot-notation.html
+      output: web, pdf
+
+  - title: Документирование конечных точек
+    output: web, pdf
+    folderitems:
+
+    - title: О модуле
+      url: /about-third-module.html
+      output: web, pdf
+
+    - title: Документирование новой конечной точки
+      url: /new-endpoint.html
+      output: web, pdf
+
+    - title: Обзор пошагового описания API ссылки
+      url: /api-reference-tutorial-overview.html
+      output: web, pdf
+
+    - title: Шаг 1 "Описание ресурса"
+      url: /step1-resourse-description.html
+      output: web, pdf
+
+    - title: Шаг 2 "Конечные точки и методы"
+      url: /step2-endpoints-and-methods.html
+      output: web, pdf
+
+    - title: Шаг 3 "Параметры"
+      url: /step3-parameters.html
+      output: web, pdf
+
+    - title: Шаг 4 "Пример запроса"
+      url: /step4-request-example.html
+      output: web, pdf
+
+    - title: Шаг 5 "Пример и схема ответа"
+      url: /step5-response-example-and-schema.html
+      output: web, pdf
+
+    - title: Собираем все вместе
+      url: /putt-all-together.html
+      output: web, pdf
+
+    - title: Практическое занятие "Что не так в разделе API?"
+      url: /whats-wrong.html
+      output: web, pdf
+
+    - title: Практическое занятие "Поиск open-source проекта"
+      url: /find-open-source-project.html
+      output: web, pdf
+
+    - title: Практическое занятие "Оценка ключевых элементов API документации"
+      url: /evaluate-api-referense-docs.html
+      output: web, pdf
+
+  - title: Спецификация OpenAPI и Swagger
+    output: web, pdf
+    folderitems:
+
+    - title: О модуле
+      url: /about-fourth-module.html
+      output: web, pdf
+
+    - title: Обзор форматов спецификаций REST API
+      url: /overview-specification-formats.html
+      output: web, pdf
+
+    - title: Знакомство со спецификациями OpenAPI и Swagger
+      url: /introduction-openapi-and-swagger.html
+      output: web, pdf
+
+    - title: Работа в YAML
+      url: /working-in-YAML.html
+      output: web, pdf
+
+    - title: Обзор руководства OpenAPI 3.0
+      url: /openapi-tutorial-overview.html
+      output: web, pdf
+
+    - title: Шаг 1 "Объект openapi"
+      url: /step1-openapi-object.html
+      output: web, pdf
+
+    - title: Шаг 2 "Объект info"
+      url: /step2-info-object.html
+      output: web, pdf
+
+    - title: Шаг3 "Объект servers"
+      url: /step3-servers-object.html
+      output: web, pdf
+
+    - title: Шаг 4 "Объект paths"
+      url: /step4-paths-object.html
+      output: web, pdf
+
+    - title: Шаг 5 "Объект components"
+      url: /step5-components-object.html
+      output: web, pdf
+
+    - title: Шаг 6 "Объект security"
+      url: /step6-security-object.html
+      output: web, pdf
+
+    - title: Шаг 7 "Объект tags"
+      url: /step7-tags-object.html
+      output: web, pdf
+
+    - title: Шаг 8 "Объект externalDocs"
+      url: /step8-externalDocs-object.html
+      output: web, pdf
+
+    - title: Практическое занятие "Создание спецификации OpenAPI"
+      url: /create-openapi-specification.html
+      output: web, pdf
+
+    - title: Руководство Swagger UI
+      url: /swagger-ui-tutorial.html
+      output: web, pdf
+
+    - title: Демо Swagger UI
+      url: /swagger-ui-demo.html
+      output: web, pdf
+
+    - title: Введение и руководство SwaggerHub
+      url: /swaggerhub-introduction-and-tutorial.html
+      output: web, pdf
+
+    - title: Stoplight
+      url: /stoplight.html
+      output: web, pdf
+
+    - title: Интеграция Swagger с документацией
+      url: /integrating-swagger-with-docs.html
+      output: web, pdf
+
+  - title: Тестирование документации
+    output: web, pdf
+    folderitems:
+
+    - title: О модуле
+      url: /about-fifth-module.html
+      output: web, pdf
+
+    - title: Обзор тестирования документации
+      url: /overview-testing.html
+      output: web, pdf
+
+    - title: Настройка тестовой среды окружения
+      url: /set-up-test-environment.html
+      output: web, pdf
+
+    - title: Самостоятельное тестирование всех инструкций
+      url: /test-instructions-yourself.html
+      output: web, pdf
+
+    - title: Тестирование предположений
+      url: /test-assumptions.html
+      output: web, pdf
+
+    - title: Практическое занятие "Тестирование документации проекта"
+      url: /test-documentation.html
+      output: web, pdf
+
+
+  - title: Концептуальные разделы
+    output: web, pdf
+    folderitems:
+
+    - title: О модуле
+      url: /about-sixth-module.html
+      output: web, pdf
+
+    - title: Разделы руководства пользователя
+      url: /user-guide-topics.html
+      output: web, pdf
+
+    - title: Обзор API
+      url: /API-overview.html
+      output: web, pdf
+
+    - title: Руководство по началу работы с API
+      url: /getting-started.html
+      output: web, pdf
+
+    - title: Требования аутентификации и авторизации API
+      url: /authentication-and-authorization.html
+      output: web, pdf
+
+    - title: Коды ошибок и статусы
+      url: /status-error-codes.html
+      output: web, pdf
+
+    - title: Ограничения скорости
+      url: /rate-limiting.html
+      output: web, pdf
+
+    - title: SDK и пример приложений
+      url: /sdks-sample-apps.html
+      output: web, pdf
+
+    - title: Краткое справочное руководство
+      url: /quick-reference-guide.html
+      output: web, pdf
+
+    - title: API Глоссарий
+      url: /api-glossary.html
+      output: web, pdf
+
+    - title: Лучшие практики (Best practices) API
+      url: /best-practices.html
+      output: web, pdf
+
+    - title: Практическое занятие "Оценка концептуального контента в проекте"
+      url: /assess-conceptual-content.html
+      output: web, pdf
+
+  - title: Документация кода
+    output: web, pdf
+    folderitems:
+
+    - title: О модуле
+      url: /about-eleventh-module.html
+      output: web, pdf
+
+    - title: Общие черты документации кода
+      url: /common-parts.html
+      output: web, pdf
+
+    - title: Почему так трудно документировать код?
+      url: /doc-code.html
+      output: web, pdf
+
+    - title: Исследования о документировании кода
+      url: /doc-research.html
+      output: web, pdf
+
+    - title: Пять стратегий документирования кода
+      url: /doc-strategy.html
+      output: web, pdf
+
+    - title: Описание и образцы кода
+      url: /code-samples.html
+      output: web, pdf
+
+    - title: Образцы приложений
+      url: /sample-apps.html
+      output: web, pdf
+
+  - title: Публикация документации
+    output: web, pdf
+    folderitems:
+
+    - title: О модуле
+      url: /about-seventh-module.html
+      output: web, pdf
+
+    - title: Варианты публикации документации
+      url: /Overview-for-publishing.html
+      output: web, pdf
+
+    - title: Список из 100 сайтов с API документацией
+      url: /API-doc-sites-list.html
+      output: web, pdf
+
+    - title: Шаблоны проектирования сайтов API документации
+      url: /Design-patterns.html
+      output: web, pdf
+
+    - title: Инструменты подхода Docs-as-code
+      url: /Doc-as-code-tools.html
+      output: web, pdf
+
+    - title: Подробнее о Markdown
+      url: /More-about-Markdown.html
+      output: web, pdf
+
+    - title: Система контроля версий (пример Git)
+      url: /Version-control-system.html
+      output: web, pdf
+
+    - title: Scrum и документация
+      url: /scrum-and-doc.html
+      output: web, pdf
+
+    - title: Практическое занятие "Управляем контентом в Wiki Github"
+      url: /Manage-wiki-content.html
+      output: web, pdf
+
+    - title: Практическое занятие "Используем клиент GitHub для десктопа"
+      url: /Use-GitHub-Desktop.html
+      output: web, pdf
+
+    - title: Практическое занятие "процесс Pull request на GitHub"
+      url: /Pull-request-workflows.html
+      output: web, pdf
+
+    - title: Генераторы статичных сайтов
+      url: /Static-site-generators.html
+      output: web, pdf
+
+    - title: Варианты хостинга и развертывания
+      url: /Hosting-and-deployment-options.html
+      output: web, pdf
+
+    - title: Возможности автономных CMS (и Readme.io)
+      url: /Headless-cms-options.html
+      output: web, pdf
+
+    - title: Рекомендации выбора инструментов документирования
+      url: /Which-tool-choose.html
+      output: web, pdf
+
+    - title: Непрерывное развертывание Jekyll и CloudCannon
+      url: /Jekyll-and-cloudCannon.html
+      output: web, pdf
+
+    - title: Кейс для изучения "Переход на Docs-as-code"
+      url: /Switching-tools.html
+      output: web, pdf
+
+  - title: Работа технического писателя
+    output: web, pdf
+    folderitems:
+
+    - title: Работа технического писателя
+      url: /about-eigth-module.html
+      output: web, pdf
+
+    - title: Квалификация технического писателя
+      url: /job-market.html
+      output: web, pdf
+
+    - title: Сколько кода нужно знать?
+      url: /how-much-code-to-know.html
+      output: web, pdf
+
+    - title: Лучшие локации для работы
+      url: /best-locations.html
+      output: web, pdf
+
+  - title: Нативные библиотеки API
+    output: web, pdf
+    folderitems:
+
+    - title: О модуле
+      url: /about-ninth-module.html
+      output: web, pdf
+
+    - title: Обзор нативных библиотек API
+      url: /Overview-of-library.html
+      output: web, pdf
+
+    - title: Получаем пример Java проекта
+      url: /Get-the-sample-Java-project.html
+      output: web, pdf
+
+    - title: Ускоренный курс Java
+      url: /Java-crash-course.html
+      output: web, pdf
+
+    - title: Практическое занятие "Генерация Javadoc из примера проекта"
+      url: /Activity-Generate-Javadoc.html
+      output: web, pdf
+
+    - title: Тэги Javadoc
+      url: /Javadoc-tags.html
+      output: web, pdf
+
+    - title: Изучение вывода Javadoc
+      url: /Explore-Javadoc-output.html
+      output: web, pdf
+
+    - title: Редактирование тэгов Javadoc
+      url: /Make-edits-Javadocs-tags.html
+      output: web, pdf
+
+    - title: Doxygen, генератор документации в основном для С++
+      url: /Doxygen.html
+      output: web, pdf
+
+    - title: Создание концептуальной документации при помощи исходных библиотек API
+      url: /Create-non-refsdocs-with-native-library-APIs.html
+      output: web, pdf
+
+  - title: Глоссарий API и источники
+    output: web, pdf
+    folderitems:
+
+    - title: О модуле
+      url: /about-tenth-module.html
+      output: web, pdf
+
+    - title: Глоссарий
+      url: /Glossary-for-API-documentation.html
+      output: web, pdf
+
+    - title: Практические занятия REST API
+      url: /RESTAPI-activities.html
+      output: web, pdf
+
+    - title: Практическое занятие "Получаем информацию о событии, используя API сервиса Eventbrite"
+      url: /Get-event-information-using-Eventbrite-API.html
+      output: web, pdf
+
+    - title: Практическое занятие "Извлекаем галерею, используя API сервиса Flickr"
+      url: /Retrieve-gallery-using-Flickr-API.html
+      output: web, pdf
+
+    - title: Практическое занятие "Получаем скорость ветра, используя API сервиса Aeris Weather"
+      url: /Get-wind-speed-using-Aeris-API.html
+      output: web, pdf
+
+    - title: Справочник RAML
+      url: /RAML-tutorial.html
+      output: web, pdf
+
+    - title: Справочник API Blueprint
+      url: /API-Blueprint-tutorial.html
+      output: web, pdf
+
+    - title: Описание ошибок
+      url: /answeres-whats-wrong.html
+      output: web, pdf
